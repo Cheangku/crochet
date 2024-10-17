@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffccbc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #4a4a4a;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+/* Section Styling */
+.section-home {
+    background-color: #ffebee;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-shop, .section-gallery, .section-about, .section-contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Shop Grid */
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.product-item img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #ffccbc;
+    padding: 10px;
+    text-align: center;
+}
